@@ -6,7 +6,7 @@ interface ButtonProps {
   type: "button" | "reset" | "submit" | undefined;
   fullWidth?: boolean;
   children: React.ReactNode;
-  onClick: () => void;
+  onClick?: () => void;
   secondary?: boolean;
   disabled?: boolean;
   danger?: boolean;
